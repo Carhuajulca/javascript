@@ -1,5 +1,9 @@
-var nombre = "gesler"
+let nombre = "gesler"
 
-function saludo(){
+// this  hace referencia desde el contexto  global 
+const nomrbe = "kaneki ku"
+function saludar(){
     console.log(this.nombre)
 }
+
+saludar.call()
